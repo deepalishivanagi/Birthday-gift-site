@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Josefin+Sans&family=Orbitron:wght@800&family=Poppins&family=Quintessential&family=Roboto+Slab:wght@300&family=Rubik:wght@400;700&display=swap');
+
+body {
+
+    text-align: center;
+    /* background-color: aqua; */
+    background: linear-gradient(45deg, black, transparent);
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    text-shadow: 0px 0px 2px black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header h1 {
+    text-shadow: 1px 1px 4px purple;
+}
+.bday-age {
+    background-color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.bday-date {
+    background-color: palevioletred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+.bday-guy {
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid palevioletred;
+}
+
+.gift-section {
+    margin-top: 40px;
+}
+
+.gift-img {
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 400px;
+    height: 280px;
+    background-image: url(images/giftcard.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/artj92V8o75VPL7AeQ/giphy.gif");
+    background-size: cover;
+}
+
+#gift-img-react:hover {
+    background-image: url("https://media.giphy.com/media/5VKbvrjxpVJCM/giphy.gif");
+    background-size: cover;
+}
+
+#gift-img-amazing:hover {
+    background-image: url("https://media.giphy.com/media/H1laAvjVD2e6jj5rMN/giphy.gif");
+    background-size: cover;
+}
+
+#gift-img-badass:hover {
+
+    background-image: url("https://media.giphy.com/media/tAgcvDYSKSZdRQmm8s/giphy.gif");
+    background-size: cover;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/g9582DNuQppxC/giphy-downsized-large.gif");
+    background-size: cover;
+}
+
+#footer {
+    margin-top: 30px;
+}
